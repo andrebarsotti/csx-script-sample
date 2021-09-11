@@ -25,18 +25,19 @@ Caso você queira montar um ambiente local siga os passos abaixo:
 1. Execute o script scripts/setup.sql em sua instalação de SQL Server.
 2. Em um prompt de comando (PowerShell, bash, etc) executar o comando abaixo
 
-    ~~~ Bash
+    ~~~ Shell
     > dotnet tool install -g dotnet-script
     ~~~
+
 3. Vá para os caminhos de seus user-screts conforme abaixo
 
     No Windows
     ~~~ PowerShell
-    > cd Env:APPDATA\Microsoft\UserSecrets\
+    PS :\> cd Env:APPDATA\Microsoft\UserSecrets\
     ~~~
 
     No Linux
-    ~~~ Bash
+    ~~~ Shell
     > cd ~/.microsoft/usersecrets/
     ~~~
 
@@ -44,17 +45,17 @@ Caso você queira montar um ambiente local siga os passos abaixo:
 
     No Windows
     ~~~ PowerShell
-    > mkdir csx-script-app
+    PS :\> mkdir csx-script-app
     ~~~
 
     No Linux
-    ~~~ Bash
+    ~~~ Shell
     > mkdir csx-script-app
     ~~~
 
 4. Crie um arquivo chamado _secrets.json_ com o confrome o exemplo abaixo
 
-    ~~~ PowerShell
+    ~~~ JSON
     {
         "ConnectionStrings": {
             "db": "Server=localhost;Database=todo-list;User Id=sa;Password=P@ssw0rd"
