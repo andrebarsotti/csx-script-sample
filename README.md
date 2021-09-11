@@ -67,13 +67,11 @@ Caso você queira montar um ambiente local siga os passos abaixo:
 
 Para executar o projeto basta executar algum dos comando abaixo na raiz do projeto:
 
-    Em qualquer ambiente:
-
     ~~~ Shell
     dotnet script Main.csx 
     ~~~
 
-    No caso de ambientes linux também é possível executar da seguinte forma:
+No caso de ambientes linux também é possível executar da seguinte forma:
 
     ~~~ Shell
     ./Main.csx 
@@ -83,13 +81,13 @@ Para executar o projeto basta executar algum dos comando abaixo na raiz do proje
 
 #### Listar
 
-    Para listar todas as tarefas cadastradas:
+Para listar todas as tarefas cadastradas:
 
     ~~~ Shell
     ./Main.csx 
     ~~~
 
-    Ou
+Ou
 
 
     ~~~ Shell
