@@ -6,7 +6,7 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
-		"terminal.integrated.shell.linux": "/bin/bash",
+		"terminal.integrated.defaultProfile.linux": "bash",
 		"mssql.connections": [
 			{
 				"server": "localhost,1433",
@@ -25,9 +25,7 @@
 	"extensions": [
 		"ms-dotnettools.csharp",
 		"ms-mssql.mssql",
-		"formulahendry.dotnet-test-explorer",
-		"eamodio.gitlens",
-		"adrianwilczynski.user-secrets"
+		"eamodio.gitlens"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -53,5 +51,5 @@
 	//      3. Open a terminal in VS Code and run "mkdir -p /home/vscode/.aspnet/https && mv aspnetapp.pfx /home/vscode/.aspnet/https"
 
 	// postCreateCommand.sh parameters: $1=SA password, $2=dacpac path, $3=sql script(s) path
-	"postCreateCommand": "bash .devcontainer/mssql/postCreateCommand.sh 'P@ssw0rd' './bin/Debug/' './.devcontainer/mssql/'"
+	"postCreateCommand": "bash .devcontainer/mssql/postCreateCommand.sh 'P@ssw0rd' './bin/Debug/' './scripts/'"
 }
