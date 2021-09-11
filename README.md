@@ -20,3 +20,6 @@ https://itnext.io/hitchhikers-guide-to-the-c-scripting-13e45f753af9
 
 Peter Vogel
 https://visualstudiomagazine.com/articles/2021/06/14/csharp-scripting.aspx
+
+Shinigami 
+https://blog.bitscry.com/2017/05/30/appsettings-json-in-net-core-console-app/

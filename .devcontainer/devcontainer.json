@@ -26,7 +26,8 @@
 		"ms-dotnettools.csharp",
 		"ms-mssql.mssql",
 		"formulahendry.dotnet-test-explorer",
-		"eamodio.gitlens"
+		"eamodio.gitlens",
+		"adrianwilczynski.user-secrets"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
