@@ -15,14 +15,14 @@ GO
 USE [todo-list]
 GO
 
-PRINT 'Criando a tabela [dbo].[Task]'
-CREATE TABLE [dbo].[Task]
+PRINT 'Criando a tabela [dbo].[TodoTask]'
+CREATE TABLE [dbo].[TodoTask]
 (
-    [Id] UNIQUEIDENTIFIER NOT NULL DEFAULT 'NEWSEQUENTIALID()',
+    [Id] UNIQUEIDENTIFIER NOT NULL DEFAULT NEWSEQUENTIALID(),
     [Locator] NVARCHAR(10) NOT NULL,
     [Title] NVARCHAR(256) NOT NULL,
     [Done] BIT NOT NULL
-    CONSTRAINT [PK_Task] PRIMARY KEY([Id]),
-    CONSTRAINT [IX_Task_Locator] UNIQUE([Locator])
+    CONSTRAINT [PK_TodoTask] PRIMARY KEY([Id]),
+    CONSTRAINT [IX_TodoTask_Locator] UNIQUE([Locator])
 );
 GO

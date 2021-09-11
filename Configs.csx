@@ -1,4 +1,3 @@
-#!/usr/bin/env dotnet-script
 #r "nuget: Microsoft.Extensions.Configuration, 5.0.0"
 #r "nuget: Microsoft.Extensions.Configuration.Binder, 5.0.0"
 #r "nuget: Microsoft.Extensions.Configuration.UserSecrets, 5.0.0"

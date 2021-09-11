@@ -1,6 +1,4 @@
-#!/usr/bin/env dotnet-script
-
-public class Task 
+public class TodoTask 
 {
     public string Locator { get; set; }
 
