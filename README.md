@@ -33,24 +33,24 @@ Caso você queira montar um ambiente local siga os passos abaixo:
 
     No Windows
     ~~~ PowerShell
-    PS :\> cd Env:APPDATA\Microsoft\UserSecrets\
+    cd Env:APPDATA\Microsoft\UserSecrets\
     ~~~
 
     No Linux
     ~~~ Shell
-    > cd ~/.microsoft/usersecrets/
+    cd ~/.microsoft/usersecrets/
     ~~~
 
 4. Crie um diretório chamado _csx-script-app_
 
     No Windows
     ~~~ PowerShell
-    PS :\> mkdir csx-script-app
+    mkdir csx-script-app
     ~~~
 
     No Linux
     ~~~ Shell
-    > mkdir csx-script-app
+    mkdir csx-script-app
     ~~~
 
 4. Crie um arquivo chamado _secrets.json_ com o confrome o exemplo abaixo
@@ -65,7 +65,61 @@ Caso você queira montar um ambiente local siga os passos abaixo:
 
 ## Execução
 
-Para executar o projeto em 
+Para executar o projeto basta executar algum dos comando abaixo na raiz do projeto:
+
+    Em qualquer ambiente:
+
+    ~~~ Shell
+    dotnet script Main.csx 
+    ~~~
+
+    No caso de ambientes linux também é possível executar da seguinte forma:
+
+    ~~~ Shell
+    ./Main.csx 
+    ~~~
+
+### Exemplos de comandos
+
+#### Listar
+
+    Para listar todas as tarefas cadastradas:
+
+    ~~~ Shell
+    ./Main.csx 
+    ~~~
+
+    Ou
+
+
+    ~~~ Shell
+    ./Main.csx ls
+    ~~~
+
+#### Adicionar
+
+Para adicionar uma tarefa:
+
+    ~~~ Shell
+    ./Main.csx add --locator teste --title "Tarefa de Teste"
+    ~~~
+
+#### Concluir
+
+Para concluir uma tarefa:
+
+    ~~~ Shell
+    ./Main.csx done --locator teste
+    ~~~
+
+#### Apagar
+
+Para apagar uma tarefa:
+
+    ~~~ Shell
+    ./Main.csx del --locator teste
+    ~~~
+
 
 ## Referências
 
