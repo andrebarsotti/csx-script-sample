@@ -55,11 +55,11 @@ Caso você queira montar um ambiente local siga os passos abaixo:
 4. Crie um arquivo chamado _secrets.json_ com o confrome o exemplo abaixo
 
     ~~~ PowerShell
-{
-    "ConnectionStrings": {
-        "db": "Server=localhost;Database=todo-list;User Id=sa;Password=P@ssw0rd"
+    {
+        "ConnectionStrings": {
+            "db": "Server=localhost;Database=todo-list;User Id=sa;Password=P@ssw0rd"
+        }
     }
-}
     ~~~
 
 ## Execução
