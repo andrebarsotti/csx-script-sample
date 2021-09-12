@@ -121,8 +121,6 @@ Para apagar uma tarefa:
 
 ## Referências
 
-SOBRENOME, Nome Abreviado. Título: subtítulo (se houver). Nome do site, ano. Disponível em: (link). Acesso em: (data).
-
 MICHAELIS, Mark. C# Scripting. Microsotf Docs, 2016. Disponível em: [link](https://docs.microsoft.com/en-us/archive/msdn-magazine/2016/january/essential-net-csharp-scripting). Acesso em: 11-09-2021
 
 BAHRAMINEZHAD, Ali. Hitchhiker’s Guide to the C# scripting. ITNEXT, 2019. Disponível em: [link](https://itnext.io/hitchhikers-guide-to-the-c-scripting-13e45f753af9). Acesso em: 11-09-2021
