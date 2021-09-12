@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Esse é um simples _todo list_ desenvolvido como os script em C#. A proposta foi validar a utilização de script para no desenvolvimento de uma
+Esse é um simples _todo list_ desenvolvido como scripts em C#. A proposta foi validar a utilização de script para no desenvolvimento de uma
 aplicação simples, porém com certo nível de complexidade.
 
 Esse aplicativo aplica o padrão de projeto MVC e também de repositórios.
