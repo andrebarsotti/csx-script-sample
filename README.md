@@ -129,3 +129,5 @@ VOGEL, Peter. Making Your Life Easier with C# Scripting. Visual Studio Magazine,
 SHINIGAMI. Adding appsettings.json to .NET Core Console App. bitScry, 2018. Disponível em <[https://blog.bitscry.com/2017/05/30/appsettings-json-in-net-core-console-app/](https://blog.bitscry.com/2017/05/30/appsettings-json-in-net-core-console-app/)>. Acesso em: 11-09-2021
 
 CHOHFI, Alexandre Z. Command Line Parser on .NET5. Devblogs Microsoft, 2021. Disponível em <[https://devblogs.microsoft.com/ifdef-windows/command-line-parser-on-net5/](https://devblogs.microsoft.com/ifdef-windows/command-line-parser-on-net5/)>. Acesso em: 11-09-2021
+
+WOJ, Filip. Dotnet script. Github, 2021. Disponível em <[https://github.com/filipw/dotnet-script](https://github.com/filipw/dotnet-script)>. Acesso em: 11-09-2021
