@@ -121,17 +121,14 @@ Para apagar uma tarefa:
 
 ## Referências
 
-Mark Michaelis
-https://docs.microsoft.com/en-us/archive/msdn-magazine/2016/january/essential-net-csharp-scripting
+SOBRENOME, Nome Abreviado. Título: subtítulo (se houver). Nome do site, ano. Disponível em: (link). Acesso em: (data).
 
-Ali Bahraminezhad
-https://itnext.io/hitchhikers-guide-to-the-c-scripting-13e45f753af9
+MICHAELIS, Mark. C# Scripting. Microsotf Docs, 2016. Disponível em: [link](https://docs.microsoft.com/en-us/archive/msdn-magazine/2016/january/essential-net-csharp-scripting). Acesso em: 11-09-2021
 
-Peter Vogel
-https://visualstudiomagazine.com/articles/2021/06/14/csharp-scripting.aspx
+BAHRAMINEZHAD, Ali. Hitchhiker’s Guide to the C# scripting. ITNEXT, 2019. Disponível em: [link](https://itnext.io/hitchhikers-guide-to-the-c-scripting-13e45f753af9). Acesso em: 11-09-2021
 
-Shinigami 
-https://blog.bitscry.com/2017/05/30/appsettings-json-in-net-core-console-app/
+VOGEL, Peter. Making Your Life Easier with C# Scripting. Visual Studio Magazine, 2021. Disponível em: [link](https://visualstudiomagazine.com/articles/2021/06/14/csharp-scripting.aspx). Acesso em: 11-09-2021
 
-Alexandre Zollinger Chohfi 
-https://devblogs.microsoft.com/ifdef-windows/command-line-parser-on-net5/
+SHINIGAMI. Adding appsettings.json to .NET Core Console App. bitScry, 2018. Disponível em [link](https://blog.bitscry.com/2017/05/30/appsettings-json-in-net-core-console-app/). Acesso em: 11-09-2021
+
+CHOHFI, Alexandre Z. Command Line Parser on .NET5. Devblogs Microsoft, 2021. Disponível em [link](https://devblogs.microsoft.com/ifdef-windows/command-line-parser-on-net5/). Acesso em: 11-09-2021
