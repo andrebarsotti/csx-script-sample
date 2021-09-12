@@ -67,15 +67,15 @@ Caso você queira montar um ambiente local siga os passos abaixo:
 
 Para executar o projeto basta executar algum dos comando abaixo na raiz do projeto:
 
-    ~~~ Shell
-    dotnet script Main.csx 
-    ~~~
+~~~ Shell
+dotnet script Main.csx 
+~~~
 
 No caso de ambientes linux também é possível executar da seguinte forma:
 
-    ~~~ Shell
-    ./Main.csx 
-    ~~~
+~~~ Shell
+./Main.csx 
+~~~
 
 ### Exemplos de comandos
 
@@ -83,40 +83,40 @@ No caso de ambientes linux também é possível executar da seguinte forma:
 
 Para listar todas as tarefas cadastradas:
 
-    ~~~ Shell
-    ./Main.csx 
-    ~~~
+~~~ Shell
+./Main.csx 
+~~~
 
 Ou
 
 
-    ~~~ Shell
-    ./Main.csx ls
-    ~~~
+~~~ Shell
+./Main.csx ls
+~~~
 
 #### Adicionar
 
 Para adicionar uma tarefa:
 
-    ~~~ Shell
-    ./Main.csx add --locator teste --title "Tarefa de Teste"
-    ~~~
+~~~ Shell
+./Main.csx add --locator teste --title "Tarefa de Teste"
+~~~
 
 #### Concluir
 
 Para concluir uma tarefa:
 
-    ~~~ Shell
-    ./Main.csx done --locator teste
-    ~~~
+~~~ Shell
+./Main.csx done --locator teste
+~~~
 
 #### Apagar
 
 Para apagar uma tarefa:
 
-    ~~~ Shell
-    ./Main.csx del --locator teste
-    ~~~
+~~~ Shell
+./Main.csx del --locator teste
+~~~
 
 
 ## Referências
