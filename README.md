@@ -33,7 +33,7 @@ Caso você queira montar um ambiente local siga os passos abaixo:
 
     No Windows
     ~~~ PowerShell
-    cd Env:APPDATA\Microsoft\UserSecrets\
+    cd $Env:APPDATA\Microsoft\UserSecrets\
     ~~~
 
     No Linux
