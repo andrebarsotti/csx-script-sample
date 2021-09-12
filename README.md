@@ -118,15 +118,14 @@ Para apagar uma tarefa:
 ./Main.csx del --locator teste
 ~~~
 
-
 ## Referências
 
-MICHAELIS, Mark. C# Scripting. Microsotf Docs, 2016. Disponível em: [link](https://docs.microsoft.com/en-us/archive/msdn-magazine/2016/january/essential-net-csharp-scripting). Acesso em: 11-09-2021
+MICHAELIS, Mark. C# Scripting. Microsotf Docs, 2016. Disponível em: <[https://docs.microsoft.com/en-us/archive/msdn-magazine/2016/january/essential-net-csharp-scripting](https://docs.microsoft.com/en-us/archive/msdn-magazine/2016/january/essential-net-csharp-scripting)>. Acesso em: 11-09-2021
 
-BAHRAMINEZHAD, Ali. Hitchhiker’s Guide to the C# scripting. ITNEXT, 2019. Disponível em: [link](https://itnext.io/hitchhikers-guide-to-the-c-scripting-13e45f753af9). Acesso em: 11-09-2021
+BAHRAMINEZHAD, Ali. Hitchhiker’s Guide to the C# scripting. ITNEXT, 2019. Disponível em: <[https://itnext.io/hitchhikers-guide-to-the-c-scripting-13e45f753af9](https://itnext.io/hitchhikers-guide-to-the-c-scripting-13e45f753af9)>. Acesso em: 11-09-2021
 
-VOGEL, Peter. Making Your Life Easier with C# Scripting. Visual Studio Magazine, 2021. Disponível em: [link](https://visualstudiomagazine.com/articles/2021/06/14/csharp-scripting.aspx). Acesso em: 11-09-2021
+VOGEL, Peter. Making Your Life Easier with C# Scripting. Visual Studio Magazine, 2021. Disponível em: <[https://visualstudiomagazine.com/articles/2021/06/14/csharp-scripting.aspx](https://visualstudiomagazine.com/articles/2021/06/14/csharp-scripting.aspx)>. Acesso em: 11-09-2021
 
-SHINIGAMI. Adding appsettings.json to .NET Core Console App. bitScry, 2018. Disponível em [link](https://blog.bitscry.com/2017/05/30/appsettings-json-in-net-core-console-app/). Acesso em: 11-09-2021
+SHINIGAMI. Adding appsettings.json to .NET Core Console App. bitScry, 2018. Disponível em <[https://blog.bitscry.com/2017/05/30/appsettings-json-in-net-core-console-app/](https://blog.bitscry.com/2017/05/30/appsettings-json-in-net-core-console-app/)>. Acesso em: 11-09-2021
 
-CHOHFI, Alexandre Z. Command Line Parser on .NET5. Devblogs Microsoft, 2021. Disponível em [link](https://devblogs.microsoft.com/ifdef-windows/command-line-parser-on-net5/). Acesso em: 11-09-2021
+CHOHFI, Alexandre Z. Command Line Parser on .NET5. Devblogs Microsoft, 2021. Disponível em <[https://devblogs.microsoft.com/ifdef-windows/command-line-parser-on-net5/](https://devblogs.microsoft.com/ifdef-windows/command-line-parser-on-net5/)>. Acesso em: 11-09-2021
