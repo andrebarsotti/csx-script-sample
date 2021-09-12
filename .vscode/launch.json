@@ -1,17 +1,29 @@
 {
   "version": "0.2.0",
   "configurations": [
+    // {
+    //   "name": ".NET Script Debug",
+    //   "type": "coreclr",
+    //   "request": "launch",
+    //   "program": "${env:HOME}/.dotnet/tools/dotnet-script",
+    //   "args": ["${file}"],
+    //   "windows": {
+    //     "program": "${env:USERPROFILE}/.dotnet/tools/dotnet-script.exe",
+    //   },
+    //   "cwd": "${workspaceFolder}",
+    //   "stopAtEntry": true,
+    // }
     {
-      "name": ".NET Script Debug",
+      "name": ".NET Script Debug - Windows",
       "type": "coreclr",
       "request": "launch",
-      "program": "${env:HOME}/.dotnet/tools/dotnet-script",
-      "args": ["${file}"],
-      "windows": {
-        "program": "${env:USERPROFILE}/.dotnet/tools/dotnet-script.exe",
-      },
-      "cwd": "${workspaceFolder}",
-      "stopAtEntry": true,
+      "program": "dotnet",
+      "args": [
+          "${env:USERPROFILE}/.dotnet/tools/.store/dotnet-script/1.2.1/dotnet-script/1.2.1/tools/net5.0/any/dotnet-script.dll",
+          "${file}"
+      ],
+      "cwd": "${workspaceRoot}",
+      "stopAtEntry": false
     }
   ]
 }
